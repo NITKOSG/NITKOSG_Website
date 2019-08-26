@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/NITKOSG_Website/precache-manifest.69f2dcbe674addb0c58cbe37d866b8ff.js"
+  "nitkosg.github.io/precache-manifest.0d7417011486de62cd82711474188ff6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/NITKOSG_Website/index.html", {
+workbox.routing.registerNavigationRoute("nitkosg.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
