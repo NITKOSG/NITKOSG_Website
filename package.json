@@ -2,11 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "https://nitkosg.github.io/NITKOSG_Website",
-=======
   "homepage": "https://naras.xyz/NITKOSG_Website",
->>>>>>> 7a31e44f8bcdcdde8842cac1a8e7cf080b7fab64
   "dependencies": {
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
@@ -22,11 +18,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-<<<<<<< HEAD
-    "build": "react-scripts build && cp build/index.html build/404.html",
-=======
     "build": "react-scripts build",
->>>>>>> 7a31e44f8bcdcdde8842cac1a8e7cf080b7fab64
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
